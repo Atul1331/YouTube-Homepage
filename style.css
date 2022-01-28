@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail{
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    width: 700px;
+    padding: 10px;
+}
+
+.searchbox form{
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+}
+
+.search{
+    background-color: rgb(231, 229, 229);
+    width: 60px;
+}
+
+.mic{
+    padding: 10px;
+}
+
+button{
+    height: 100%;
+    border: none;
+    background: none;
+}
+
+.accessories{
+    display: flex;
+    justify-content: center;
+}
+
+.accessories button{
+    padding: 10px;
+}
+
+
+
+
+
+
+.main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+}
+
+.sidebar{
+    height: 100%;
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.upper , .lower{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.upper div:hover , .lower div:hover, .active{
+    background-color: rgb(208, 201, 201);;
+}
+
+
+.acc{
+    display: flex;
+
+    align-items: center;
+    padding: 25px 20px;
+    
+}
+
+.acc .material-icons{
+    margin-right: 25px;
+}
+
+
+
+
+
+.content{
+    height: 100%;
+    width: 87%;
+    background-color: rgb(231, 225, 225);
+    
+}
